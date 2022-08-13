@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+    margin: 2rem;
+}
+
+.wrapper{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 50% 50%;
+    
+}
+
+.top-layer{
+    background:white;
+    padding: 2rem 4rem 3rem 2rem; 
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.join{
+    margin-bottom: 2rem;
+    color: hsl(179, 62%, 43%);
+}
+
+.thirty-day{
+    margin-bottom: 1rem;
+    color: hsl(71, 73%, 54%);
+}
+
+.main-para{
+    inline-size: 30rem;
+    /* to fit words in a specific way  */
+    overflow-wrap: break-word;
+    color: hsl(218, 22%, 67%);
+    font-size: 0.9rem;
+}
+
+.bottom-layer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+ 
+}
+
+.left-side{
+    display: grid;
+    gap: 1rem;
+    background-color: hsl(179, 62%, 43%);
+    padding: 2rem;
+    border-bottom-left-radius: 5px;
+}
+
+.monthly{
+    color: white;
+}
+
+.price{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.dollar{
+    color: white;
+}
+
+.per{
+    color: hsl(204, 43%, 93%);
+    font-size: 0.8rem;
+}
+
+.full-access{
+    color: hsl(204, 43%, 93%);
+    font-size: 0.9rem;
+}
+
+.sign-up{
+    width: 100%;
+    padding: 0.7rem 0;
+    border-radius: 5px;
+    color: white;
+    background:hsl(71, 73%, 54%) ;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+.right-side{
+    display: grid;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: hsla(179, 62%, 43%, 0.7);
+    background-blend-mode: soft-light;
+    border-bottom-right-radius: 5px;
+}
+
+.why{
+    color: white;
+}
+
+.right-content{
+    color: hsl(204, 43%, 93%);
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+.text{
+    font-family: 'Karla', sans-serif;
+}
+
+.sign-up:hover{
+    background: hsla(71, 73%, 54%, 0.7);
+    border: 1.5px solid hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width: 480px){
+
+    .wrapper{
+        display: grid;
+        grid-template-rows: 33% 67%;
+        justify-content: center;
+    }
+
+
+    .bottom-layer{
+        display: block;
+    }
+
+    .main-para{
+        inline-size: 20rem;
+        overflow-wrap: break-word;
+    }
+
+    .top-layer{
+        padding: 2rem;
+    }
+    .left-side{
+        border-radius: 0;
+
+    }
+
+    .right-side{
+        border-bottom-left-radius: 5px;
+    }
+
+}
