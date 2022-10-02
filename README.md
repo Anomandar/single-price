@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github link](https://github.com/Bill-Adepoju/single-price)
-- Live Site URL: [live link](https://bill-adepoju.github.io/single-price/)
+- Solution URL: [github link](https://github.com/Anomandar/single-price)
+- Live Site URL: [live link](https://anomandar.github.io/single-price/)
 
 ## My process
 
